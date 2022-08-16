@@ -1,0 +1,18 @@
+.footer{
+  text-align: center;
+  padding: 40px;
+  color: $white;
+  &__green{
+    color: $green;
+  }
+  &__pink{
+    color: $pink;
+  }
+  &__blue{
+    color: $blue;
+  }
+  &__text_bold{
+    font-weight: 700;
+  }
+  
+}

@@ -1,0 +1,108 @@
+.news{
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  &__left{
+    padding: 10px;
+  }
+  &__time{
+    display: block;
+    margin-bottom: 10px;
+  }
+  &__title{
+    color: $white;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  &__time_white{
+    color: $white;
+    font-size: 0.6rem;
+  }
+  &__right{
+    max-width: 871px;
+    width: 100%;
+    height: 460px;
+    position: relative;
+    background: url('../../../i/smoorfs-2.png') no-repeat right bottom;
+    background-size: contain;
+  }
+  &__link{
+    text-decoration: underline;
+    color: $green;
+  }
+  &__link:hover{
+    text-decoration: none;
+  }
+  &__link_3D{
+    position: absolute;
+    content: '';
+    top: 10px;
+    right: 313px;
+    color: $green;
+    font-family: 'Bad Script', serif;
+    font-size: 1.5rem;
+    border-bottom: 1px dotted $green;
+    text-decoration: none;
+    transition: all 1.5s ease;
+  }
+  &__link_3D:hover{
+    border-bottom:  1px dotted transparent;
+  }
+  &__green{
+    color: $green;
+    font-size: .7rem;
+  }
+  &__pink{
+    color: $pink;
+    font-size: .7rem;
+  }
+  &__blue{
+    color: $blue;
+    font-size: .7rem;
+  }
+  &__cover{
+    text-align: right;
+  }
+  &__link-right{
+    padding-top: 10px;
+    color: $green;
+    font-size: .7rem;
+  }
+  &__link-right:hover{
+    text-decoration: none;
+  }
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dotted #919191;
+  &__right{
+    padding: 0 10px;
+  }
+  &__text{
+    max-width: 300px;
+    width: 100%;
+    color: $white;
+    margin: 0;
+    font-size: .7rem;
+    margin-bottom: 5px;
+  }
+  &__left{
+    display: block;
+  }
+  &__img{
+    transition: all 1.5s ease;
+  }
+  &__img:hover{
+    opacity: 0.5;
+  }
+}
+.right{
+  margin-bottom: 0;
+}
+
+.first{
+  border-top: 1px dotted #919191;
+}

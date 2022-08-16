@@ -23,3 +23,13 @@ body {
 h1 {
   font-weight: $mediumFontWeight;
 }
+.container, 
+.header, 
+.footer{
+  max-width: 1200px;
+  width:100%;
+  margin: 0 auto;
+}
+body{
+  background: $black;
+}

@@ -1,0 +1,84 @@
+.header{
+ background: $black;
+ padding: 35px 15px;
+ display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+ align-items: center;
+}
+.logo{
+  margin-right: 50px;
+}
+.phone__img{
+  width:144px; 
+  height:87px;
+}
+.menu{
+  &__item{
+    color:$white;
+    margin-right: 20px;
+  }
+  &__link{
+    color: $white;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 0.8rem;
+    font-family: 'Century Gothic', serif;
+    transition: all 1s ease;
+  }
+  &__link:hover{
+    color:$green;
+    // border-bottom: 1px dotted $green;
+  }
+}
+.menu {
+  flex-grow: 1;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  list-style: none;
+}
+
+
+
+.phone{
+
+  &__link{
+    text-decoration: none;
+    color:$white;
+    display: block;
+    margin-top: -15px;
+  }
+  &__green{
+    color:$green;
+  }
+  &__pink{
+    color:$pink;
+  }
+  &__blue{
+    color:$blue;
+  }
+  &__img{
+    display: block;
+    top: 0;
+  }
+}
+
+.tel{
+}
+
+.tel span {
+  font-size: 1.2rem;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+.menu a {
+  padding: 8px 10px;
+}
